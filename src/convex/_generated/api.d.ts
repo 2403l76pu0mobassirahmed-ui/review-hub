@@ -18,6 +18,7 @@ import type * as auth from "../auth.js";
 import type * as feedback from "../feedback.js";
 import type * as http from "../http.js";
 import type * as reviews from "../reviews.js";
+import type * as seed from "../seed.js";
 import type * as users from "../users.js";
 
 /**
@@ -34,6 +35,7 @@ declare const fullApi: ApiFromModules<{
   feedback: typeof feedback;
   http: typeof http;
   reviews: typeof reviews;
+  seed: typeof seed;
   users: typeof users;
 }>;
 export declare const api: FilterApi<
